@@ -1,5 +1,5 @@
 <template>
-
+<p>Page Auth</p>
 </template>
 
 <script>

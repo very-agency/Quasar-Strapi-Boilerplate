@@ -1,5 +1,5 @@
 <template>
-
+<p>Page Register</p>
 </template>
 
 <script>

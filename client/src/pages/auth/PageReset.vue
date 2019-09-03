@@ -1,5 +1,5 @@
 <template>
-
+<p>Page Reset</p>
 </template>
 
 <script>
