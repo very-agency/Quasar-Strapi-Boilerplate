@@ -6,7 +6,7 @@
         <div>Hello, Very</div>
       </q-toolbar>
     </q-header>
-    <q-page-container class="bg-pink-2">
+    <q-page-container class="bg-white">
       <router-view />
     </q-page-container>
     <q-footer elevated class="bg-negative text-white">

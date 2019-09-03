@@ -1,9 +1,8 @@
 <template>
   <q-page>
 
-    <div class="q-pa-sm">
+    <div>
       <q-carousel
-            rounded-borders
             arrows
             animated
             v-model="slide"
@@ -47,19 +46,19 @@
 </div>
 
 
-<div class="text-center q-pa-sm">
+<div class="text-center">
   <Launcher />
 </div>
 
-<div class="row">
-<div class="col text-center q-pa-sm">
+
+<div class="text-center">
   <Teens />
 </div>
 
-<div class="col text-center q-pa-sm">
+<div class="text-center">
   <Balita />
 </div>
-</div>
+
 
 </q-page>
 </template>
