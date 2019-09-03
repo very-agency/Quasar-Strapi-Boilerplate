@@ -1,4 +1,4 @@
-# Fambam Apps (fambam)
+# Quasar Apps by VERY
 
 A Quasar Framework app
 
