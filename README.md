@@ -1,5 +1,5 @@
-# Quasar-Strapi-Boilerplate
-Boilterplate for Quasar Framework as frontend and Strapi as backend maintain by VERY Dev Team
+# VERYPWA - Quasar + Strapi Boilerplate
+Boilterplate using Quasar Framework as frontend and Strapi as backend. Maintain by VERY Dev Team
 
 # Strapi Backend
 username: demovery | password: demovery
