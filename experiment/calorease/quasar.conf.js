@@ -62,7 +62,8 @@ module.exports = function (ctx) {
         'QVideo',
         'QTabPanels',
         'QTabPanel',
-        'QColor'
+        'QColor',
+        'QScrollArea'
       ],
 
       directives: [

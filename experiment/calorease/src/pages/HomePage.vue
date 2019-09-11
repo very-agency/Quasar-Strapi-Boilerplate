@@ -1,29 +1,8 @@
 <template>
   <q-page>
-
-
-<div class="text-center">
+  <HeaderHome />
   <HeroHome />
-</div>
-
-<div class="text-center">
-  <Launcher />
-</div>
-
-
-<div class="text-center">
-  <CardOne />
-</div>
-
-<div class="text-center">
-  <CardTwo />
-</div>
-
-<div class="text-center">
-  <CardThree />
-</div>
-
-
+  <HomeTab />
 </q-page>
 </template>
 
@@ -37,19 +16,15 @@
 </style>
 
 <script>
-import Launcher from 'components/Launcher'
-import CardOne from 'components/CardOne'
-import CardTwo from 'components/CardTwo'
-import CardThree from 'components/CardThree'
+import HeaderHome from 'components/HeaderHome'
 import HeroHome from 'components/HeroHome'
+import HomeTab from 'components/HomeTab'
 
 export default {
   components: {
-    Launcher,
-    CardOne,
-    CardTwo,
-    CardThree,
+    HeaderHome,
     HeroHome,
+    HomeTab,
   },
   data () {
       return {

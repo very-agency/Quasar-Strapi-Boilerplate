@@ -1,26 +1,42 @@
 
   <template>
     <q-footer>
-    <div>
-        <q-tabs
-          v-model="tab"
-          dense
-          class=""
-          align="justify"
-          class="row"
-        >
-          <q-tab class="col-6 bg-indigo-9" style="height: 100px" name="mails">
-            <div class="text-h4">FATGO</div>
-          <p>Lorem Ipsum dolor sit amet</p></q-tab>
+      <div>
+          <q-tab-panels class="q-pa-lg" v-model="tab" animated>
 
-          <q-tab class="col-6 bg-orange" style="height: 100px" name="alarms">
-            <div class="text-h4">CARBO</div><p>Lorem Ipsum dolor sit amet</p></q-tab>
+            <q-tab-panel class="text-center q-pa-lg" name="mails">
+              <q-img style="max-height: 500px;max-width:500px" src="./statics/fatgo_transparent.png" /><br><br>
+              <q-btn color="indigo-9" label="View More" style="height: 50px;width: 150px;" />
+            </q-tab-panel>
 
-          <q-tab class="col-6 bg-purple" style="height: 100px" name="movies">
-            <div class="text-h4">Appressant</div><p>Lorem Ipsum dolor sit amet</p></q-tab>
-        </q-tabs>
-    </div>
-  </q-footer>
+            <q-tab-panel class="text-center q-pa-lg" name="alarms">
+              <q-img style="max-height: 500px;max-width:500px" src="./statics/carbo_transparent.png" /><br><br>
+              <q-btn color="orange" label="View More" style="height: 50px;width: 150px;" />
+            </q-tab-panel>
+
+            <q-tab-panel class="text-center q-pa-lg" name="movies">
+              <q-img style="max-height: 500px;max-width:500px" src="./statics/Appressant_transparent.png" /><br><br>
+              <q-btn color="purple" label="View More" style="height: 50px;width: 150px;" />
+            </q-tab-panel>
+
+          </q-tab-panels>
+
+          <q-tabs
+            v-model="tab"
+            dense
+            align="justify"
+            z-index="99"
+            class="row-12"
+          >
+            <q-tab class="col-4 bg-indigo-9" style="height: 50px" name="mails" label="FATGO" />
+
+            <q-tab class="col-4 bg-orange" style="height: 50px" name="alarms" label="CARBO" />
+
+            <q-tab class="col-4 bg-purple" style="height: 50px" name="movies" label="APPRESSANT" />
+
+          </q-tabs>
+      </div>
+    </q-footer>
 </template>
 
 

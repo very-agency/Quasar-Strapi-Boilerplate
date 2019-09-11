@@ -1,26 +1,22 @@
 <template>
-  <div>
-    <q-carousel
+<div absolute-top>
+  <q-img src="./statics/HERO.jpg" />
+<!--    <q-carousel
           arrows
           animated
           v-model="slide"
           infinite
           autoplay
+          absolute-center
           transition-prev="slide-right"
           transition-next="slide-left"
-          style="height: 200px"
+          class="q-pa-lg"
         >
-  <q-carousel-slide :name="1" style="full-height"><q-video src="./statics/video1.mp4" />
-    </q-carousel-slide>
-  <q-carousel-slide :name="2" img-src="./statics/HERO.jpg">
-      </q-carousel-slide>
-  <q-carousel-slide :name="3" img-src="https://myrepublica.nagariknetwork.com/uploads/media/2018/December/Activelife-opinion.jpg">
-  <div class="absolute-bottom custom-caption text-white">
-        <div class="text-h3 text-uppercase calorease_heading">No Worries</div>
-          <div class="subtitle">for better life</div>
-      </div>
-      </q-carousel-slide>
+  <q-carousel-slide :name="1" img-src="./statics/fatgo_transparent.png" />
+  <q-carousel-slide :name="2" img-src="./statics/carbo_transparent.png" />
+  <q-carousel-slide :name="3" img-src="./statics/Appressant_transparent.png" />
 </q-carousel>
+-->
 </div>
 </template>
 
