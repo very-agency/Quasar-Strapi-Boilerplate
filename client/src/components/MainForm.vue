@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  // name: 'ComponentName',
+  name: 'MainForm',
   data () {
     return {}
   }

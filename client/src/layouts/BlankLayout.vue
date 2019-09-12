@@ -86,7 +86,7 @@
 
 <script>
 export default {
-  // name: 'LayoutName',
+  name: 'BlankLayout',
 
   data () {
     return {

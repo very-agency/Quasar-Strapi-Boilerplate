@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  // name: 'ComponentName',
+  name: 'MainLauncher',
   data () {
     return {}
   }

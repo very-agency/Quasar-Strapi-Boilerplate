@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  // name: 'PageName',
+  name: 'PageReset',
 }
 </script>
 
