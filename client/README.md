@@ -1,4 +1,8 @@
-# VERY Boilerplate (client)
+
+# VERY Boilerplate 
+(Template 1. eCommerce)
+Frontend:   Quasar
+Backend:    Strapi
 
 A Boilerplate for VERY Projects
 
@@ -21,13 +25,16 @@ quasar build
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
+
+A Boilerplate for VERY Projects
+
 STRUCTURE:
 
 Main Pages:
-1. Index
-2. HomePage
-3. BlogPage
-4. BlogList
+1.  Index
+2.  HomePage
+3.  BlogList
+4.  BlogPage
 
 Auth Pages:
 1. PageRegister
@@ -43,6 +50,7 @@ Static Pages:
 1. PageAbout
 2. PageFAQ
 3. PageContact
+4. Error404
 
 Layout:
 1. HomeLayout
