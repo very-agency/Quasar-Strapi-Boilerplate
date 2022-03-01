@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-beta.5",
+    "strapi": "3.6.8",
     "strapi-admin": "3.0.0-beta.5",
     "strapi-utils": "3.0.0-beta.5",
     "strapi-hook-bookshelf": "3.0.0-beta.5",
